@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@media print {
+  nav, footer, main, .no-print, [role="dialog"], button {
+    display: none !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+
+  #printable-academic-dossier {
+    display: block !important;
+    visibility: visible !important;
+    position: static !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 1.5rem !important;
+  }
+}
